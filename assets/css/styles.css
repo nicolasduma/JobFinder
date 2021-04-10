@@ -1,0 +1,73 @@
+/* VARs */
+:root {
+    --general-color: rgb(109, 109, 109);
+    --default-blue-color: #3481f5;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--general-color);
+    font-family: "Roboto", "Halvetica", sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    color: var(--generel-color);
+    text-decoration: none;
+}
+
+/* GENERAL */
+.conteiner {
+    max-width: 1920px;
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+#conteiner-logo-menu {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    border-bottom: solid 1px rgb(200, 200, 200);
+}
+
+#logo {
+    height: 50px;
+}
+
+/* MENU */
+#content-logo-menu {
+    max-width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    display: flex;
+    gap: 30px;
+}
+
+#menu > li > a {
+    transition: .5s;
+}
+
+#menu > li > a:hover {
+    color: var(--default-blue-color);
+}
