@@ -27,6 +27,19 @@ a {
     width: 100%;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -118,5 +131,104 @@ header {
 #search-banner button:hover {
     background-color: #1b76ff;
 }
+
+/* MAIN */
+.wrapper {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* LAST JOBS */
+
+#conteiner-lastjobs > ul {
+    /* width: 100%; */
+    min-width: 1200px;
+    border: solid 2px rgb(220, 220, 220);
+    border-radius: 10px;
+}
+
+#conteiner-lastjobs > ul li {
+    border-bottom: solid 2px rgb(220, 220, 220);
+    padding: 5px 10px;
+}
+
+#conteiner-lastjobs > ul li:nth-last-child(1) {
+    border: none;
+}
+
+#conteiner-lastjobs > ul li > a {
+    display: flex;
+    align-items: center;
+}
+
+#conteiner-lastjobs > ul li > a > .box-company {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#conteiner-lastjobs > ul li > a > .box-company > img {
+    height: 90px;
+}
+
+#conteiner-lastjobs > ul li > a > .box-company .info-company {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#conteiner-lastjobs > ul li > a > .box-company > .info-company p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#conteiner-lastjobs > ul li > a > .locality-company {
+    width: 25%;
+    display: flex;
+    gap: 10px;
+}
+
+#conteiner-lastjobs > ul li > a > .jobtype-company {
+    width: 25%;
+    text-align: center;
+}
+
+#conteiner-lastjobs > ul li > a > .jobtype-company span {
+    display: block;
+    width: 95%;
+    min-width: 40px;
+    padding: 3px 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#conteiner-lastjobs > ul li > a > .jobtype-company span.clt {
+    background-color: rgb(255, 193, 24);
+}
+
+#conteiner-lastjobs > ul li > a > .jobtype-company span.pj {
+    background-color: rgb(76, 36, 255);
+}
+
+.btn-jobs {
+    padding: 15px 20px;
+    border: solid 2px var(--default-blue-color);
+    background-color: white;
+    color: var(--default-blue-color);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-jobs:hover {
+    text-decoration: underline;
+}
+
 
 
