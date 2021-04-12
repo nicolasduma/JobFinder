@@ -94,7 +94,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/banner.jpg');
+    background-image: url('../images/banner-header.jpg');
     background-size: cover;
     background-position: 0 60%;
     text-align: center;
@@ -143,6 +143,17 @@ header {
     flex-direction: column;
     margin: 0 auto;
     padding: 80px 0;
+}
+
+.no-wrapper {
+    max-width: 100%;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
 }
 
 h2 {
@@ -224,16 +235,12 @@ h2 {
 }
 
 .btn-jobs {
-    padding: 12px 20px;
     margin-top: 40px;
     border: solid 2px var(--default-blue-color);
-    border-radius: 5px;
     background-color: white;
     color: var(--default-blue-color);
     font-size: 20px;
     font-weight: 500;
-    cursor: pointer;
-    transition: .5s;
 }
 
 .btn-jobs:hover {
@@ -241,5 +248,45 @@ h2 {
     color: white;
 }
 
+/* SEND JOBS */
+#conteiner-sendjobs {
+    height: 900px;
+    background-image: url('../images/banner-main-1.jpg');
+    background-size: cover;
+    background-position: 0 50%;
+}
 
+#content-sendjobs {
+    height: 100%;
+    align-items: flex-start;
+    padding: 0;
+}
 
+#content-sendjobs * {
+    max-width: 600px;
+    margin: 0;
+}
+
+#content-sendjobs h2 {
+    color: white;
+}
+
+#content-sendjobs p {
+    margin: 50px 0;
+    color: rgb(230, 230, 230);
+    font-weight: 300;
+}
+
+.btn-light {
+    border: solid 3px white;
+    background-color: white;
+    color: var(--general-color);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-light:hover {
+    background-color: transparent;
+    color: white;
+}
