@@ -308,16 +308,16 @@ h2 {
 }
 
 #conteiner-statics ul {
-    display: flex;
     width: 100%;
+    display: flex;
     padding: 10px 0;
 }
 
 #conteiner-statics ul li {
     width: 25%;
+    padding: 20px 0;
     border-left: solid 2px rgb(220, 220, 220);
     text-align: center;
-    padding: 20px 0;
 }
 
 #conteiner-statics ul li:nth-last-child(1) {
@@ -326,4 +326,73 @@ h2 {
 
 #conteiner-statics ul li > span {
     font-size: 40px;
+}
+
+/* TESTMONY SECTION */
+#conteiner-testmony {
+    height: 900px;
+    background-image: url('../images/banner-testmony.jpg');
+    background-size: cover;
+}
+
+#content-testmony {
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+#content-testmony * {
+    margin: 0;
+    color: white;
+}
+
+#content-testmony > p {
+    width: 70%;
+    margin: 50px 0;
+}
+
+#content-testmony > ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content-testmony > ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content-testmony > ul li p {
+    width: 150px;
+    padding: 20px 15px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    background-color: white;
+    color: var(--general-color);
+    font-style: italic;
+    font-weight: 300;
+}
+
+#content-testmony > ul li p:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    bottom: -60px;
+    left: -25px;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+    border-top: solid 20px white;
+}
+
+#content-testmony > ul li img {
+    width: 100px;
+    margin-bottom: 10px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+
+#content-testmony > ul li span {
+    font-weight: 600;
 }
