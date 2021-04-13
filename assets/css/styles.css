@@ -290,3 +290,40 @@ h2 {
     background-color: transparent;
     color: white;
 }
+
+/* STATICS SECTION */
+
+
+#conteiner-statics {
+    text-align: center;
+}
+
+#conteiner-statics * {
+    margin: 0
+}
+
+#conteiner-statics > p {
+    width: 95%;
+    margin: 50px 0;
+}
+
+#conteiner-statics ul {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#conteiner-statics ul li {
+    width: 25%;
+    border-left: solid 2px rgb(220, 220, 220);
+    text-align: center;
+    padding: 20px 0;
+}
+
+#conteiner-statics ul li:nth-last-child(1) {
+    border-right: solid 2px rgb(220, 220, 220);
+}
+
+#conteiner-statics ul li > span {
+    font-size: 40px;
+}
