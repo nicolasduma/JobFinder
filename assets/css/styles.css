@@ -1,6 +1,6 @@
 /* VARs */
 :root {
-    --general-color: rgb(109, 109, 109);
+    --general-color: rgb(80, 80, 80);
     --default-blue-color: #3381F3;
 }
 
@@ -460,4 +460,93 @@ h2 {
 #conteiner-articles > .box-article > .btn-light:hover {
     background-color: white;
     color: var(--default-blue-color);
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--general-color);
+}
+
+footer > div * {
+    margin: 0;
+    color: rgb(210, 210, 210);
+    font-weight: 300;
+}
+
+footer > div a {
+    transition: .5s;
+}
+
+footer > div a:hover {
+    color: white;
+}
+
+footer div.wrapper:nth-child(1) {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer div.wrapper:nth-child(1) > div {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer div.wrapper:nth-child(1) > div > h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+footer div.wrapper:nth-child(1) > div:nth-child(1) {
+    align-self: center;
+    gap: 0;
+    text-align: center;
+}
+
+footer div.wrapper:nth-child(1) > div:nth-child(1) span {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+footer div.wrapper:nth-child(1) > div:nth-child(2) li {
+    margin-bottom: 25px;
+}
+
+footer div.wrapper:nth-child(1) > div:nth-child(2) li:nth-last-child(1) {
+    margin: 0;
+}
+
+footer div.wrapper:nth-child(1) > div:nth-child(2) li > span {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+footer div.wrapper:nth-child(1) > div:nth-child(3) li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer div.wrapper:nth-child(1) > div:nth-child(3) li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer div.wrapper:nth-child(1) > div:nth-child(3) li i {
+    font-size: 30px;
+}
+
+footer div.wrapper:nth-child(2) {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    border-top: solid 1px white;
+    max-width: 100%;
+}
+
+footer div.wrapper:nth-child(2) > span {
+    font-weight: 400;
 }
