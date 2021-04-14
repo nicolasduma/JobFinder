@@ -396,3 +396,68 @@ h2 {
 #content-testmony > ul li span {
     font-weight: 600;
 }
+
+/* LAST BLOGS ARTICLES SECTION */
+#conteiner-last-blog-articles {
+    text-align: center;
+}
+
+#conteiner-last-blog-articles * {
+    margin: 0;
+}
+
+#conteiner-last-blog-articles > p {
+    width: 95%;
+    margin: 50px 0;
+}
+
+#conteiner-articles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteiner-articles > .box-article {
+    width: 380px;
+    text-align: left;
+}
+
+#conteiner-articles > .box-article > img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#conteiner-articles > .box-article > article {
+    margin: 20px 0;
+}
+
+#conteiner-articles > .box-article > article > h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#conteiner-articles > .box-article > article > span {
+    display: block;
+    margin: 14px 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#conteiner-articles > .box-article > article > p {
+    font-size: 16px;
+}
+
+#conteiner-articles > .box-article > .btn-light {
+    padding: 10px 15px;
+    border-color: var(--default-blue-color);
+    border-radius: 5px;
+    background-color: var(--default-blue-color);
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#conteiner-articles > .box-article > .btn-light:hover {
+    background-color: white;
+    color: var(--default-blue-color);
+}
