@@ -147,3 +147,31 @@
         margin-bottom: 20px;
     }
 }
+
+@media (max-width: 750px) {
+    #content-logo-menu, .wrapper {
+        width: 650px;
+    }
+
+    #main-banner {
+        background-position: 50% 0;
+    }
+
+    #search-banner p {
+        width: 600px;
+    }
+
+    #search-banner > form{
+        width: 300px;
+    }
+
+    #search-banner input, #search-banner select, #search-banner button {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+
+    #content-testmony > ul li {
+        width: 250px;
+        text-align: center;
+    }
+}
