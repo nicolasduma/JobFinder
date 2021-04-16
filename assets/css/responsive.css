@@ -46,3 +46,103 @@
         width: 900px;
     }
 }
+
+@media (max-width: 950px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #content-logo-menu, .wrapper {
+        width: 700px;
+    }
+
+    #search-banner h1 {
+        width: 600px;
+        margin: auto;
+        font-size: 40px;
+    }
+
+    #search-banner form {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: auto;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .box-company {
+        width: 45%;
+        gap: 15px;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .box-company > img {
+        height: 70px;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .box-company > .info-company h4 {
+        font-size: 18px;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .locality-company {
+        width: 40%;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .jobtype-company span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    #conteiner-statics ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #conteiner-statics ul li {
+        width: 250px;
+        height: 80px;
+        border: none;
+    }
+
+    #conteiner-statics ul li:nth-child(1), #conteiner-statics ul li:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    #conteiner-statics ul li:nth-child(1), #conteiner-statics ul li:nth-child(3) {
+        border-right: solid 2px rgb(220, 220, 220);
+    }
+
+    #conteiner-statics ul li:nth-child(4) {
+        border: none;
+    }
+
+    #conteiner-testmony {
+        height: 1200px;
+    }
+
+    #content-testmony > ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #content-testmony > ul li {
+        width: 300px;
+        text-align: center;
+    }
+
+    #content-testmony > ul li p:after {
+        bottom: -58px;
+        left: -85px;
+    }
+
+    #content-testmony > ul li:nth-child(1), #content-testmony > ul li:nth-child(2) {
+        margin-bottom: 20px;
+    }
+}
