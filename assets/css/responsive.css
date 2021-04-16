@@ -53,11 +53,11 @@
     }
 
     h4 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     #content-logo-menu, .wrapper {
@@ -79,7 +79,7 @@
     }
 
     #conteiner-lastjobs > ul li > .click-area > .box-company {
-        width: 45%;
+        width: 42%;
         gap: 15px;
     }
 
@@ -92,11 +92,11 @@
     }
 
     #conteiner-lastjobs > ul li > .click-area > .locality-company {
-        width: 40%;
+        width: 33%;
     }
 
     #conteiner-lastjobs > ul li > .click-area > .jobtype-company span {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
     }
 
@@ -112,11 +112,12 @@
     }
 
     #conteiner-statics ul li:nth-child(1), #conteiner-statics ul li:nth-child(2) {
-        margin-bottom: 20px;
+        margin-bottom: 70px;
     }
 
     #conteiner-statics ul li:nth-child(1), #conteiner-statics ul li:nth-child(3) {
         border-right: solid 2px rgb(220, 220, 220);
+        padding-left: 0;
     }
 
     #conteiner-statics ul li:nth-child(4) {
@@ -139,7 +140,7 @@
 
     #content-testmony > ul li p:after {
         bottom: -58px;
-        left: -85px;
+        left: -32px;
     }
 
     #content-testmony > ul li:nth-child(1), #content-testmony > ul li:nth-child(2) {

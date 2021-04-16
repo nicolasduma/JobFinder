@@ -165,7 +165,6 @@ h2 {
 
 #conteiner-lastjobs > ul {
     width: 100%;
-    min-width: 900px;
     border: solid 2px rgb(220, 220, 220);
     border-radius: 10px;
 }
