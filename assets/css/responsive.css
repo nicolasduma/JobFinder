@@ -1,0 +1,48 @@
+@media (max-width: 1250px) {
+    #content-logo-menu, .wrapper {
+        width: 1000px;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .box-company {
+        width: 45%;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .locality-company {
+        width: 30%;
+    }
+
+    #content-sendjobs p {
+        width: 550px;
+    }
+
+    #conteiner-articles {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #conteiner-articles > .box-article {
+        text-align: center;
+    }
+
+    footer div.wrapper:nth-child(1) {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    footer div.wrapper:nth-child(1) > div:nth-child(1) {
+        flex-basis: 100%;
+    }
+
+    footer div.wrapper:nth-child(2) {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1050px) {
+    #content-logo-menu, .wrapper {
+        width: 900px;
+    }
+}
