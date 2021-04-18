@@ -359,3 +359,37 @@
         width: 90vw;
     }
 }
+
+@media (max-width: 500px) {
+    #conteiner-lastjobs > ul li > .click-area > .box-company > .info-company p {
+        display: none;
+    }
+}
+
+@media (max-width: 460px) {
+    #search-banner form {
+        width: 90vw;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .box-company {
+        box-sizing: border-box;
+        padding-right: 5px;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .box-company > img {
+        height: 40px;
+    }
+
+    #conteiner-lastjobs > ul li > .click-area > .box-company > .info-company h4 {
+        font-size: 17px;
+    }
+
+    #conteiner-lastjobs .btn-jobs {
+        font-size: 16px;
+    }
+
+    #content-sendjobs {
+        position: relative;
+        left: 1vw;
+    }
+}
