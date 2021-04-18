@@ -189,10 +189,6 @@
         display: none;
     }
 
-    input[type="checkbox"].display-none {
-        display: none;
-    }
-
     #conteiner-logo-menu {
         height: auto;
         display: flex;
@@ -222,7 +218,7 @@
         right: 5vw;
     }
 
-    #content-logo-menu > div.display-none > label > i {
+    #btn-responsive-menu > i {
         font-size: 23px;
     }
 
