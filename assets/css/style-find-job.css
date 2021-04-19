@@ -1,0 +1,64 @@
+.conteiner-findjob {
+    margin-top: 100px;
+}
+
+#conteiner-job-filter {
+    width: 100%;
+    background-color: var(--default-blue-color);
+    border-top: solid 7px rgb(30, 0, 197);
+}
+
+#conteiner-job-filter form > div:first-child {
+    margin: 35px auto;
+    text-align: center;
+}
+
+#search-form input[type="text"], #search-form select, #search-form button {
+    background-color: white;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 200px;
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+#search-form button {
+    margin-right: 0;
+    text-transform: uppercase;
+    color: var(--default-blue-color)
+}
+
+#conteiner-filter-type-jobs {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-left: solid 2px rgb(200, 200, 200);
+    border-right: solid 2px rgb(200, 200, 200);
+    align-items: flex-end;
+}
+
+#conteiner-lastjobs > ul {
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+}
+
+#conteiner-filter-type-jobs ul{
+    display: flex;
+}
+
+#conteiner-filter-type-jobs .filter-type-jobs {
+    width: 25%;
+    padding: 15px 5px 15px 20px;
+    border-right: solid 2px rgb(200, 200, 200);
+}
+
+#conteiner-filter-type-jobs .filter-type-jobs input, #conteiner-filter-type-jobs .filter-type-jobs label {
+    cursor: pointer;
+}
+
+#conteiner-filter-type-jobs .filter-type-jobs label {
+    padding-left: 10px;
+    font-weight: 600;
+}

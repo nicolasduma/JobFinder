@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/style-find-job.css">
     <title>JobFinder</title>
     <script src="https://kit.fontawesome.com/cb2016f5f4.js" crossorigin="anonymous"></script>
 </head>
@@ -42,23 +43,25 @@
         </header>
 
         <main>
-            <section class="wrapper" id="conteiner-lastjobs">
+            <section class="wrapper conteiner-findjob" id="conteiner-lastjobs">
                 <h2>Busque a sua vaga</h2>
 
                 <div id="conteiner-job-filter">
                     <div id="search-form">
                         <form>
-                            <input type="text" name="job" placeholder="Digite o cargo">
+                            <div>
+                                <input type="text" name="job" placeholder="Digite o cargo">
 
-                            <select name="region">
-                                <option value="">Todos os estados</option>
-                            </select>
+                                <select name="region">
+                                    <option value="">Todos os estados</option>
+                                </select>
 
-                            <select name="category">
-                                <option value="">Categoria</option>
-                            </select>
+                                <select name="category">
+                                    <option value="">Categoria</option>
+                                </select>
 
-                            <button type="submit">Pesquisar</button>
+                                <button type="submit">Pesquisar</button>
+                            </div>
 
                             <div id="conteiner-filter-type-jobs">
                                 <ul>
@@ -73,7 +76,8 @@
                                     </li>
 
                                     <li class="filter-type-jobs">
-                                        <input type="checkbox" name="FL" id="checkbox-fl" checked><label for="checkbox-fl">FREE
+                                        <input type="checkbox" name="FL" id="checkbox-fl" checked><label
+                                            for="checkbox-fl">FREE
                                             LANCER</label>
                                     </li>
                                 </ul>
@@ -163,7 +167,7 @@
                         </a></li>
                 </ul>
 
-                <button class="btn btn-jobs" type="button">Ver mais vagas</button>
+                <button class="btn btn-jobs" type="button">Carregar mais vagas</button>
 
             </section>
 
