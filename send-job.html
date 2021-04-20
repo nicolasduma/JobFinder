@@ -43,8 +43,38 @@
         </header>
 
         <main>
-            <section class="wrapper">
+            <section class="wrapper" id="conteiner-send-job-form">
                 <h2>Preencha os dados da vaga</h2>
+                <form>
+                    <div>
+                        <label for="job-title">Título da vaga *</label>
+                        <input type="text" id="job-title" pacehoder="Insira o título da vaga" required>
+                    </div>
+
+                    <div>
+                        <label for="job-description">Descrição da vaga *</label>
+                        <textarea id="job-description" pacehoder="Insira o descrição da vaga"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="job-name-conpany">Nome da empresa *</label>
+                        <input type="text" id="job-name-conpany" pacehoder="Insira o nome da empresa" required>
+                    </div>
+
+                    <div>
+                        <label for="type-job-company">Tipo de contratação *</label>
+                        <select id="type-job-company" required>
+                            <option value="">Escolha uma opção</option>
+                            <option value="clt-int">CLT - Tempo Integral</option>
+                            <option value="clt-hf">CLT - Home Office</option>
+                            <option value="pj-int">PJ - Tempo Integral</option>
+                            <option value="pj-hf">PJ - Home Office</option>
+                            <option value="fl">Free Lancer</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
             </section>
         </main>
 
