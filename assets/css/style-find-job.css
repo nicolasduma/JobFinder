@@ -44,7 +44,7 @@
     border-radius: 0 0 10px 10px;
 }
 
-#conteiner-filter-type-jobs ul{
+#conteiner-filter-type-jobs ul {
     display: flex;
 }
 
@@ -61,4 +61,49 @@
 #conteiner-filter-type-jobs .filter-type-jobs label {
     padding-left: 10px;
     font-weight: 600;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1150px) {
+    .conteiner-findjob {
+        width: 95%; 
+    }
+
+    #search-form input[type="text"], #search-form select, #search-form button {
+        width: 60%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    #conteiner-job-filter form > div:first-child {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #conteiner-filter-type-jobs .filter-type-jobs {
+        width: 33%;
+    }
+
+    #conteiner-filter-type-jobs .filter-type-jobs:last-child {
+        border: none;
+    }
+}
+
+@media (max-width: 900px) {
+    #conteiner-filter-type-jobs ul{
+        flex-direction: column;
+    }
+
+    #conteiner-filter-type-jobs .filter-type-jobs {
+        width: 100%;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    #conteiner-filter-type-jobs .filter-type-jobs:first-child, #conteiner-filter-type-jobs .filter-type-jobs:nth-child(2) {
+        border-bottom: solid 1px rgb(200, 200, 200);
+    }
 }
