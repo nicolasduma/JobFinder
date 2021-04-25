@@ -3,6 +3,6 @@
 </div>
 <h2>📷 Demo</h2>
 <div align="center">
-  GIFs of Project
+  <img src="github/demo-desktop.git">
 </div>
 <h2>ℹ️ About the project<h2>
