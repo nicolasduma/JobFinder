@@ -1,9 +1,17 @@
 <div align="center">
-  <img src="assets/images/logo.png" alt="JobFinder" width="200px">
+  <img src="assets/images/logo.png" alt="JobFinder" width="180px">
+  <h1>JobFinder</h1>
+
+  JobFinder is a site where you can find a new job or you send job for candidates.
 </div>
-<h2>📷 Demo</h2>
+
+## 📷 Demo
 <div align="center">
   <img src="github/demo-desktop.gif" alt="Demo Desktop">
   <img src="github/demo-moblie.gif" alt="Demo Moblie">
 </div>
-<h2>ℹ️ About the project<h2>
+
+## ℹ️ About the project
+JobFinder is a site where you can find a new job or you send job for candidates.
+<br>
+🚧 <strong>This project doesn't have back-end part.</strong>
