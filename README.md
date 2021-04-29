@@ -17,7 +17,7 @@ This is a didactic project, it has no back-end.
 I made it to improve my knowledges with front-end technologies.
 
 ### Cradits
-The project is inspired on [curse of HTML and CSS]("https://www.youtube.com/playlist?list=PLnDvRpP8Bnez2LJGshXKtid2f-aUkFOqM") at YouTube.
+The project is inspired on [curse of HTML and CSS](https://www.youtube.com/playlist?list=PLnDvRpP8Bnez2LJGshXKtid2f-aUkFOqM) at YouTube.
 
 ## 🚀 Technologies
 - ✔ HTML
