@@ -1,6 +1,7 @@
 <div align="center">
+  <br>
+  <br>
   <img src="assets/images/logo.png" alt="JobFinder" width="180px">
-  <h1>JobFinder</h1>
 
   JobFinder is a site where you can find a new job or you send job for candidates.
 </div>
@@ -11,7 +12,11 @@
   <img src="github/demo-moblie.gif" alt="Demo Moblie">
 </div>
 
-## ℹ️ About the project
-JobFinder is a site where you can find a new job or you send job for candidates.
-<br>
-🚧 <strong>This project doesn't have back-end part.</strong>
+## ℹ About the project
+This is a didatic project, it doesn't have back-end part. I make it for baster the my conhecimentos with front-end tecnologies.
+
+## 🚀 Technologies
+- ✔ HTML
+- ✔ CSS
+- ✔ JavaScript
+
