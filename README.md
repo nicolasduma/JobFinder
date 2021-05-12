@@ -8,8 +8,14 @@
 
 ## 📷 Demo
 <div align="center">
-  <img src=".github/demo-desktop.gif" alt="Demo Desktop">
-  <img src=".github/demo-moblie.gif" alt="Demo Moblie">
+  <img src=".github/demo-desktop.gif" alt="Demo Desktop" width="650px">
+  <img src=".github/demo-moblie.gif" alt="Demo Moblie" width="250px">
+
+  <h3>
+  
+  🕹 [TEST APPLICATION](https://nicolasrafaelduma.github.io/JobFinder/) 🕹
+  
+  </h3>
 </div>
 
 ## ℹ About the project
@@ -33,3 +39,6 @@ git clone https://github.com/nicolasrafaelduma/JobFinder
 ```
 
 3. I recommend that you use an IDE or a good text editor like [VSCode](https://code.visualstudio.com/).
+
+## 📄 License
+[MIT License](https://github.com/nicolasrafaelduma/JobFinder/blob/master/LICENSE)
